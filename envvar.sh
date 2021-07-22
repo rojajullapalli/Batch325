@@ -4,6 +4,7 @@ if env | grep USERSECRET=
 then
   echo env variable is already exported
   echo "local"
+  echo "remote"
 else
   echo env variable was not exported, but now it is
   export USERSECRET
